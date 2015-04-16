@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.miguel.myapplication" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.LoginActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".util.CallbackHandler"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <data android:scheme="vdodemo" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SelectDataTypeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.asynctask.GetDataActivity"
+            android:label="@string/title_activity_get_data" >
+        </activity>
+        <activity
+            android:name=".activity.asynctask.ExchangeTokenActivity"
+            android:label="@string/title_activity_exchange_token" >
+        </activity>
+        <activity
+            android:name=".activity.asynctask.AcquireUnauthorizedAccessTokenActivity"
+            android:label="@string/title_activity_acquire_unauthorized_access_token" >
+        </activity>
+        <activity
+            android:name=".activity.asynctask.CheckVerifiedTokenActivity"
+            android:label="@string/title_activity_check_verified_token" >
+        </activity>
+        <activity
+            android:name=".activity.showinformation.UserSettingsActivity"
+            android:label="@string/title_activity_show_information" >
+        </activity>
+        <activity
+            android:name=".activity.showinformation.CardiodockSettingsActivity"
+            android:label="@string/title_activity_cardiodock_settings" >
+        </activity>
+        <activity
+            android:name=".activity.showinformation.GlucoseSettingsActivity"
+            android:label="@string/title_activity_glucose_settings" >
+        </activity>
+        <activity
+            android:name=".activity.showinformation.OxymeterSettingsActivity"
+            android:label="@string/title_activity_oxymeter_settings" >
+        </activity>
+        <activity
+            android:name=".activity.showinformation.TargetScalesSettingsActivity"
+            android:label="@string/title_activity_target_scales_settings" >
+        </activity>
+        <activity
+            android:name=".activity.showinformation.DataListViewActivity"
+            android:label="@string/title_activity_data_list_view" >
+        </activity>
+    </application>
+
+</manifest>

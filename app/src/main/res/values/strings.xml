@@ -1,0 +1,134 @@
+<resources>
+
+    <string name="app_name">Test App</string>
+
+    <!-- Views -->
+
+    <string name="login">Login</string>
+    <string name="get_data">Get data</string>
+    <string name="logout">Logout</string>
+    <string name="saved_credentials">Saved Credentials Login</string>
+    <string name="no_data">No Data</string>
+
+    <!-- Text views -->
+
+    <string name="measurement_date">Measurement Date:</string>
+    <string name="birthday">Birthday:</string>
+    <string name="sex">Sex:</string>
+    <string name="personal_messages">Personal Messages:</string>
+    <string name="module_serial_id">Module Serial ID:</string>
+    <string name="updated_date">Update Date:</string>
+    <string name="goal_steps">Goal Steps:</string>
+    <string name="stride">Stride:</string>
+    <string name="version">Version:</string>
+    <string name="id">ID:</string>
+    <string name="height">Height:</string>
+    <string name="active">Active:</string>
+    <string name="length_unit">Length Unit:</string>
+    <string name="body_weight">Body Weight:</string>
+
+    <string name="systole_target_max">Systole target max:</string>
+    <string name="pulse_target_max">Pulse Target Max:</string>
+    <string name="pulse_target_min">Pulse Target Min:</string>
+    <string name="systole_target_min">Systole Target Min:</string>
+    <string name="diastole_target_min">Diastole Target Min:</string>
+    <string name="diastole_target_max">Diastole Target Max:</string>
+
+    <string name="blood_glucose_target_max">Blood Glucose Target Max:</string>
+    <string name="blood_glucose_target_min">Blood Glucose Target Min:</string>
+    <string name="glucose_measure_unit">Glucose Measure Unit:</string>
+
+    <string name="saturation_target_min">Saturation Target Min:</string>
+    <string name="saturation_target_max">Saturation Target Max:</string>
+
+    <string name="measure_unit">Measure Unit:</string>
+    <string name="enter_mode">Enter Mode:</string>
+    <string name="athlete_mode">Athlete Mode:</string>
+    <string name="target_weight">Target Weight:</string>
+
+    <string name="pulse">Pulse:</string>
+
+    <string name="blood_glucose">Blood Glucose:</string>
+    <string name="meal_status">Meal Status:</string>
+
+    <string name="carbohydrates">Carbohydrates:</string>
+
+    <string name="insulin">Insulin:</string>
+    <string name="insulin_type_name">Insulin Type Name:</string>
+
+    <string name="saturation">Saturation:</string>
+
+    <string name="weight">Weight:</string>
+    <string name="body_fat">Body Fat:</string>
+
+    <string name="body_temperature">Body Temperature:</string>
+    <string name="body_temperature_target_min">Body Temperature Target Min:</string>
+    <string name="body_temperature_target_max">Body Temperature Target Max:</string>
+
+    <string name="duration">Duration:</string>
+    <string name="calories">Calories:</string>
+    <string name="distance">Distance:</string>
+
+    <string name="sleep_quality">Sleep Quality:</string>
+
+    <string name="bad_sleep_quality_duration">Bad Sleep Quality Duration:</string>
+    <string name="medium_sleep_quality_duration">Medium Sleep Quality Duration:</string>
+    <string name="good_sleep_quality_duration">Good Sleep Quality Duration:</string>
+    <string name="excellent_sleep_quality_duration">Excellent Sleep Quality Duration:</string>
+
+    <!-- Activity names -->
+
+    <string name="title_activity_login">Login Activity</string>
+    <string name="title_activity_get_data">Get Data Activity</string>
+    <string name="title_activity_exchange_token">Exchange Token Activity</string>
+    <string name="title_activity_acquire_unauthorized_access_token">Acquire Unauthorized Access Token
+    </string>
+    <string name="title_activity_check_verified_token">Check Verified Token Activity</string>
+    <string name="title_activity_show_information">Show Information Activity</string>
+    <string name="title_activity_cardiodock_settings">Cardiodock Settings Activity</string>
+    <string name="title_activity_glucose_settings">Glucose Settings Activity</string>
+    <string name="title_activity_oxymeter_settings">Oxymeter Settings Activity</string>
+    <string name="title_activity_target_scales_settings">Target Scales Settings Activity</string>
+    <string name="title_activity_data_list_view">Data List View Activity</string>
+
+    <!-- Messages -->
+
+    <string name="logged_out">Logged out</string>
+    <string name="no_credentials_saved">No credentials found, please login.</string>
+
+    <!-- Progress dialog messages -->
+
+    <string name="exchanging_token">Exchanging Token</string>
+    <string name="acquiring_unauthorized_token">Acquiring Unauthorized Token</string>
+    <string name="checking_verified_token">Checking Verified Token</string>
+    <string name="getting_data">Getting data</string>
+    <string name="getting_settings">Getting settings</string>
+
+    <!-- Error messages -->
+
+    <string name="dont_connect_internet">Please connect the device to Internet</string>
+
+    <string name="exchange_token_error">Exchanging Token error</string>
+    <string name="acquiring_unauthorized_token_error">Acquiring unauthorized Token error</string>
+    <string name="checking_verified_token_error">Checking verified Token error</string>
+    <string name="getting_data_error">Getting data error</string>
+    <string name="data_no_found">Data no found</string>
+
+    <string name="bad_request_advice_first">Server returned bad request error while</string>
+    <string name="bad_request_advice_second">. Normally its because the request chain is malformed
+        or any argument is wrong, please revise the request chain, pay special attention to Token/Secret strings.</string>
+
+    <string name="unauthorized_advice_first">Server returned application unauthorized error while</string>
+    <string name="unauthorized_advice_second">. Its because your application is not authorized to do
+        this operation or your application Token/Secret is not right.</string>
+
+    <string name="method_not_allowed_advice_first">Server returned method not allowed while</string>
+    <string name="method_not_alloed_advice_second">. Its because the method specified in the
+        request line is not allowed for this request URI.</string>
+    
+    <string name="internal_server_error">The server is not available now. Please try in a few minutes.</string>
+
+    <string name="exception_error_first">An exception threw while</string>
+    <string name="exception_error_second">. Please revise log.</string>
+
+</resources>
