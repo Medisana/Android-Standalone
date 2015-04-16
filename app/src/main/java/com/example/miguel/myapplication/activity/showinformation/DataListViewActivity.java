@@ -17,7 +17,7 @@ import com.example.miguel.myapplication.adapter.TrackerActivityAdapter;
 import com.example.miguel.myapplication.adapter.TrackerPhaseAdapter;
 import com.example.miguel.myapplication.adapter.TrackerSleepAdapter;
 import com.example.miguel.myapplication.adapter.TrackerStatsAdapter;
-import com.example.miguel.myapplication.dockclass.BaseModel;
+import com.example.miguel.myapplication.model.BaseModel;
 import com.example.miguel.myapplication.util.ConstantsStorage;
 
 import java.util.ArrayList;

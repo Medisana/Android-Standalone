@@ -8,7 +8,7 @@ import android.support.v7.app.ActionBarActivity;
 
 import com.example.miguel.myapplication.R;
 import com.example.miguel.myapplication.activity.SelectDataTypeActivity;
-import com.example.miguel.myapplication.dockclass.BaseModel;
+import com.example.miguel.myapplication.model.BaseModel;
 import com.example.miguel.myapplication.service.servercommunication.RetrieveData;
 import com.example.miguel.myapplication.service.servercommunication.RetrieveSettings;
 import com.example.miguel.myapplication.util.ConstantsStorage;

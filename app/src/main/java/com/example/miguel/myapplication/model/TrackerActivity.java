@@ -1,27 +1,28 @@
-package com.example.miguel.myapplication.dockclass;
+package com.example.miguel.myapplication.model;
 
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
 /**
- * Class used to facilitate the storage of Tracker Sleep´s data returned from the server. Extends BaseModel.
+ * Class used to facilitate the storage of Tracker Activity´s data returned from the server. Extends BaseModel.
  *
  * @author Miguel Francisco García del Moral Muñoz
  */
-public class TrackerSleep extends BaseModel {
+public class TrackerActivity extends BaseModel{
 
     private String id;
     private Calendar measurementDate;
     private Boolean active;
     private String moduleSerialId;
     private Calendar updatedDate;
-    private List<TrackerSleepQuality> trackerSleepQualities = new ArrayList<>();
+    private List<TrackerActivityEntry> trackerActivityEntries = new ArrayList<>();
     private Integer version;
 
     /*
      * GETTERS
      */
+
     public String getId() {
         return id;
     }
@@ -42,8 +43,8 @@ public class TrackerSleep extends BaseModel {
         return updatedDate;
     }
 
-    public List<TrackerSleepQuality> getTrackerSleepQualities() {
-        return trackerSleepQualities;
+    public List<TrackerActivityEntry> getTrackerActivityEntries() {
+        return trackerActivityEntries;
     }
 
     public Integer getVersion() {
@@ -73,8 +74,8 @@ public class TrackerSleep extends BaseModel {
         this.updatedDate = updatedDate;
     }
 
-    public void setTrackerSleepQualities(List<TrackerSleepQuality> trackerSleepQualities) {
-        this.trackerSleepQualities = trackerSleepQualities;
+    public void setTrackerActivityEntries(List<TrackerActivityEntry> trackerActivityEntries) {
+        this.trackerActivityEntries = trackerActivityEntries;
     }
 
     public void setVersion(Integer version) {

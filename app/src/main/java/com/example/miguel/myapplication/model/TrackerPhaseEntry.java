@@ -1,4 +1,4 @@
-package com.example.miguel.myapplication.dockclass;
+package com.example.miguel.myapplication.model;
 
 /**
  * Class used to facilitate the storage of Tracker Phase Entry´s data returned from the server. Extends BaseModel.

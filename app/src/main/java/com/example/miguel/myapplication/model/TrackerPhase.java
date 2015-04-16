@@ -1,4 +1,4 @@
-package com.example.miguel.myapplication.dockclass;
+package com.example.miguel.myapplication.model;
 
 import java.util.ArrayList;
 import java.util.Calendar;

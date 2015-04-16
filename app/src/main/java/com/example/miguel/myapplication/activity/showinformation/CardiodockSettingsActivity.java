@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.example.miguel.myapplication.R;
-import com.example.miguel.myapplication.dockclass.CardiodockSettings;
+import com.example.miguel.myapplication.model.CardiodockSettings;
 import com.example.miguel.myapplication.util.CalendarString;
 import com.example.miguel.myapplication.util.ConstantsStorage;
 

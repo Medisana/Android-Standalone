@@ -9,9 +9,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.miguel.myapplication.R;
-import com.example.miguel.myapplication.dockclass.BaseModel;
-import com.example.miguel.myapplication.dockclass.TrackerActivity;
-import com.example.miguel.myapplication.dockclass.TrackerActivityEntry;
+import com.example.miguel.myapplication.model.BaseModel;
+import com.example.miguel.myapplication.model.TrackerActivity;
+import com.example.miguel.myapplication.model.TrackerActivityEntry;
 import com.example.miguel.myapplication.util.CalendarString;
 
 import java.util.ArrayList;

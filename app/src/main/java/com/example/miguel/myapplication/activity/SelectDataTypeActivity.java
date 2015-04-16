@@ -16,7 +16,7 @@ import com.example.miguel.myapplication.activity.showinformation.GlucoseSettings
 import com.example.miguel.myapplication.activity.showinformation.OxymeterSettingsActivity;
 import com.example.miguel.myapplication.activity.showinformation.TargetScalesSettingsActivity;
 import com.example.miguel.myapplication.activity.showinformation.UserSettingsActivity;
-import com.example.miguel.myapplication.dockclass.BaseModel;
+import com.example.miguel.myapplication.model.BaseModel;
 import com.example.miguel.myapplication.util.ConstantsStorage;
 
 import java.util.ArrayList;

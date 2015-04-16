@@ -8,8 +8,8 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import com.example.miguel.myapplication.R;
-import com.example.miguel.myapplication.dockclass.BaseModel;
-import com.example.miguel.myapplication.dockclass.Oxymeter;
+import com.example.miguel.myapplication.model.BaseModel;
+import com.example.miguel.myapplication.model.Oxymeter;
 import com.example.miguel.myapplication.util.CalendarString;
 
 import java.util.ArrayList;

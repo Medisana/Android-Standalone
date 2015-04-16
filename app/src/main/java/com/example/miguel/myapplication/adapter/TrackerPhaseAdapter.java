@@ -9,9 +9,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.miguel.myapplication.R;
-import com.example.miguel.myapplication.dockclass.BaseModel;
-import com.example.miguel.myapplication.dockclass.TrackerPhase;
-import com.example.miguel.myapplication.dockclass.TrackerPhaseEntry;
+import com.example.miguel.myapplication.model.BaseModel;
+import com.example.miguel.myapplication.model.TrackerPhase;
+import com.example.miguel.myapplication.model.TrackerPhaseEntry;
 import com.example.miguel.myapplication.util.CalendarString;
 
 import java.util.ArrayList;

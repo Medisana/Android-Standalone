@@ -1,28 +1,25 @@
-package com.example.miguel.myapplication.dockclass;
+package com.example.miguel.myapplication.model;
 
-import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.List;
 
 /**
- * Class used to facilitate the storage of Tracker Activity´s data returned from the server. Extends BaseModel.
+ * Class used to facilitate the storage of Glucodock Meal´s data returned from the server. Extends BaseModel.
  *
- * @author Miguel Francisco García del Moral Muñoz
+ * @author Miguel Francisco García del Moral Muñoz.
  */
-public class TrackerActivity extends BaseModel{
+public class GlucodockMeal extends BaseModel {
 
     private String id;
     private Calendar measurementDate;
     private Boolean active;
+    private Integer carbohydrates;
     private String moduleSerialId;
     private Calendar updatedDate;
-    private List<TrackerActivityEntry> trackerActivityEntries = new ArrayList<>();
     private Integer version;
 
     /*
      * GETTERS
      */
-
     public String getId() {
         return id;
     }
@@ -35,16 +32,16 @@ public class TrackerActivity extends BaseModel{
         return active;
     }
 
-    public String getModuleSerialId() {
+    public Integer getCarbohydrates() {
+        return carbohydrates;
+    }
+
+    public Object getModuleSerialId() {
         return moduleSerialId;
     }
 
     public Calendar getUpdatedDate() {
         return updatedDate;
-    }
-
-    public List<TrackerActivityEntry> getTrackerActivityEntries() {
-        return trackerActivityEntries;
     }
 
     public Integer getVersion() {
@@ -66,16 +63,16 @@ public class TrackerActivity extends BaseModel{
         this.active = active;
     }
 
+    public void setCarbohydrates(Integer carbohydrates) {
+        this.carbohydrates = carbohydrates;
+    }
+
     public void setModuleSerialId(String moduleSerialId) {
         this.moduleSerialId = moduleSerialId;
     }
 
     public void setUpdatedDate(Calendar updatedDate) {
         this.updatedDate = updatedDate;
-    }
-
-    public void setTrackerActivityEntries(List<TrackerActivityEntry> trackerActivityEntries) {
-        this.trackerActivityEntries = trackerActivityEntries;
     }
 
     public void setVersion(Integer version) {

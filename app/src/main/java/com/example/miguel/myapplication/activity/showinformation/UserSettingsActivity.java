@@ -5,7 +5,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.widget.TextView;
 
 import com.example.miguel.myapplication.R;
-import com.example.miguel.myapplication.dockclass.UserSettings;
+import com.example.miguel.myapplication.model.UserSettings;
 import com.example.miguel.myapplication.util.CalendarString;
 import com.example.miguel.myapplication.util.ConstantsStorage;
 

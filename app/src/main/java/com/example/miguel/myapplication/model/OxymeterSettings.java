@@ -1,25 +1,23 @@
-package com.example.miguel.myapplication.dockclass;
+package com.example.miguel.myapplication.model;
 
 import java.util.Calendar;
 
 /**
- * Class used to facilitate the storage of CardioDock´s settings. Extends BaseModel.
+ * Class used to facilitate the storage of OxyMeter´s settings. Extends BaseModel.
  *
  * @author Miguel Francisco García del Moral Muñoz.
  */
-public class CardiodockSettings extends BaseModel {
+public class OxymeterSettings extends BaseModel {
 
     private String id;
     private Calendar measurementDate;
-    private Integer systoleTargetMax;
     private Integer pulseTargetMin;
     private Integer pulseTargetMax;
     private String moduleSerialId;
-    private Integer systoleTargetMin;
+    private Integer saturationTargetMax;
     private Calendar updatedDate;
-    private Integer diastoleTargetMin;
     private Boolean active;
-    private Integer diastoleTargetMax;
+    private Integer saturationTargetMin;
     private Integer version;
 
     /*
@@ -34,10 +32,6 @@ public class CardiodockSettings extends BaseModel {
         return measurementDate;
     }
 
-    public Integer getSystoleTargetMax() {
-        return systoleTargetMax;
-    }
-
     public Integer getPulseTargetMin() {
         return pulseTargetMin;
     }
@@ -50,24 +44,20 @@ public class CardiodockSettings extends BaseModel {
         return moduleSerialId;
     }
 
-    public Integer getSystoleTargetMin() {
-        return systoleTargetMin;
+    public Integer getSaturationTargetMax() {
+        return saturationTargetMax;
     }
 
     public Calendar getUpdatedDate() {
         return updatedDate;
     }
 
-    public Integer getDiastoleTargetMin() {
-        return diastoleTargetMin;
-    }
-
     public Boolean getActive() {
         return active;
     }
 
-    public Integer getDiastoleTargetMax() {
-        return diastoleTargetMax;
+    public Integer getSaturationTargetMin() {
+        return saturationTargetMin;
     }
 
     public Integer getVersion() {
@@ -86,10 +76,6 @@ public class CardiodockSettings extends BaseModel {
         this.measurementDate = measurementDate;
     }
 
-    public void setSystoleTargetMax(Integer systoleTargetMax) {
-        this.systoleTargetMax = systoleTargetMax;
-    }
-
     public void setPulseTargetMin(Integer pulseTargetMin) {
         this.pulseTargetMin = pulseTargetMin;
     }
@@ -102,24 +88,20 @@ public class CardiodockSettings extends BaseModel {
         this.moduleSerialId = moduleSerialId;
     }
 
-    public void setSystoleTargetMin(Integer systoleTargetMin) {
-        this.systoleTargetMin = systoleTargetMin;
+    public void setSaturationTargetMax(Integer saturationTargetMax) {
+        this.saturationTargetMax = saturationTargetMax;
     }
 
     public void setUpdatedDate(Calendar updatedDate) {
         this.updatedDate = updatedDate;
     }
 
-    public void setDiastoleTargetMin(Integer diastoleTargetMin) {
-        this.diastoleTargetMin = diastoleTargetMin;
-    }
-
     public void setActive(Boolean active) {
         this.active = active;
     }
 
-    public void setDiastoleTargetMax(Integer diastoleTargetMax) {
-        this.diastoleTargetMax = diastoleTargetMax;
+    public void setSaturationTargetMin(Integer saturationTargetMin) {
+        this.saturationTargetMin = saturationTargetMin;
     }
 
     public void setVersion(Integer version) {

@@ -1,12 +1,12 @@
 package com.example.miguel.myapplication.service.servercommunication;
 
 import com.example.miguel.myapplication.activity.SelectDataTypeActivity;
-import com.example.miguel.myapplication.dockclass.BaseModel;
-import com.example.miguel.myapplication.dockclass.CardiodockSettings;
-import com.example.miguel.myapplication.dockclass.GlucoseSettings;
-import com.example.miguel.myapplication.dockclass.OxymeterSettings;
-import com.example.miguel.myapplication.dockclass.TargetScaleSettings;
-import com.example.miguel.myapplication.dockclass.UserSettings;
+import com.example.miguel.myapplication.model.BaseModel;
+import com.example.miguel.myapplication.model.CardiodockSettings;
+import com.example.miguel.myapplication.model.GlucoseSettings;
+import com.example.miguel.myapplication.model.OxymeterSettings;
+import com.example.miguel.myapplication.model.TargetScaleSettings;
+import com.example.miguel.myapplication.model.UserSettings;
 import com.example.miguel.myapplication.service.AuthorizationBuilder;
 import com.example.miguel.myapplication.service.HeaderPrinter;
 import com.example.miguel.myapplication.util.ConstantsStorage;
