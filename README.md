@@ -8,3 +8,5 @@ who is first launch, the application store the credentials, so only need one log
 The second interactive activity launched is for select the type of data the user want to get.
 
 The data returned is filter by the application in order to call the rigth activity for show the information.
+
+NOTE: This project was done in Android Studio.
