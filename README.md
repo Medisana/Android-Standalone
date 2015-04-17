@@ -13,7 +13,7 @@ The data returned is filtered by the application in order to call the correspond
 FEATURES
 - Reusable classes to embed in your own application
 - Handles user authentication via external browser and custom URL scheme callback
-- Securely store oAuth credentials
+- Securely store oAuth credentials in the internal storage of the device
 - Retrieve data for all data and setting modules
 
 NOTES:
