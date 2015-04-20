@@ -10,6 +10,8 @@ The second interactive activity launched allows users to select the type of data
 
 The data returned is filtered by the application in order to call the corresponding activity to display the information.
 
+How to start described in the Wiki.
+
 FEATURES
 - Reusable classes to embed in your own application
 - Handles user authentication via external browser and custom URL scheme callback
