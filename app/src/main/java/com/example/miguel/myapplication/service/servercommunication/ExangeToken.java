@@ -49,8 +49,8 @@ public class ExangeToken {
         try {
             authorization = AuthorizationBuilder
                     .createUnauthorizedAccessRequestAuthorizationHeader(
-                            uriDeviceRequest, ConstantsStorage.TEST_APPLICATION_TOKEN,
-                            ConstantsStorage.TEST_APPLICATION_SECRET);
+                            uriDeviceRequest, ConstantsStorage.PRODUCTION_APPLICATION_TOKEN,
+                            ConstantsStorage.PRODUCTION_APPLICATION_SECRET);
             httppost.setHeader(ConstantsStorage.AUTHORIZATION_STRING, authorization);
             httppost.setHeader("device_id", uniqueID);
             httppost.setHeader("device_name", Build.MODEL);
