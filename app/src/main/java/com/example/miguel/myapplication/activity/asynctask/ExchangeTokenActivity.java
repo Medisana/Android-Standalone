@@ -81,7 +81,7 @@ public class ExchangeTokenActivity extends ActionBarActivity {
                 deviceToken = hashMap.get(ConstantsStorage.DEVICE_TOKEN);
                 deviceSecret = hashMap.get(ConstantsStorage.DEVICE_SECRET);
                 return true;
-            } else return null;
+            } else return false;
         }
 
         /**
