@@ -135,7 +135,12 @@ public class ConstantsStorage {
 
     public static final String AUTHORIZATION_STRING = "Authorization";
 
-    public static final String CALL_BACK_URI = "vdodemo" + "://?";
+    /*
+     * Note that you need to replace this value with your app`s Callback URI. Also you need to change
+     * that in the AndroidManifest. You can see this value in your account, setting/applications,
+     * manage own applications, show application(binocular icon).
+     */
+    public static final String CALL_BACK_URL = "vdodemo" + "://?";
 
     /*
      * It is the Agent Name, usually the application name + version. We use that in order to check
@@ -155,7 +160,7 @@ public class ConstantsStorage {
     public static final int EXCEPTION_ERROR = 2;
     public static final int ACQUIRING_UNAUTHORIZED_ACCESS_ERROR = 3;
 
-    // HTTP response code from server.
+    // HTTP response codes from server.
     public static final int HTTP_RESPONSE_OK = 200;
     public static final int HTTP_RESPONSE_BAD_REQUEST = 400;
     public static final int HTTP_RESPONSE_UNAUTHORIZED = 401;

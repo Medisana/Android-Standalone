@@ -33,8 +33,8 @@ public class CallbackHandler extends Activity {
      */
     private void handleUrl() {
         Uri uri = getIntent().getData();
-        if (uri != null && uri.toString().startsWith(ConstantsStorage.CALL_BACK_URI)) {
-            String uriTokens = uri.toString().replace(ConstantsStorage.CALL_BACK_URI, "");
+        if (uri != null && uri.toString().startsWith(ConstantsStorage.CALL_BACK_URL)) {
+            String uriTokens = uri.toString().replace(ConstantsStorage.CALL_BACK_URL, "");
             LoginActivity.setVerifierToken(uriTokens);
             finish();
         }
